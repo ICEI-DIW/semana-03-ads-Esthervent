@@ -12,58 +12,11 @@ header {
     height: 35px;
     background-color: rgb(46, 42, 42);
     border-radius: 25px;
-    margin: 10px;
+    margin: 25px;
     display: flex;
     justify-content: space-between;
     z-index: 1000;
 }
-
-nav {
-    margin: 8;
-    display: flex;
-}
-
-
-ul {
-    margin: 0;
-    margin-right: 34%;
-    display: flex;
-    list-style: none;
-    align-items: center;
-    white-space: nowrap;
-    gap: 65px;
-}
-
-ul li a {
-
-    color: gold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-ul li a:hover{
-text-decoration: underline;
-color: rgb(245, 225, 113);
-}
-
-.caixa-pesquisa{
-    height: 18px;
-    width: 115px;
-    margin-top: 5px;
-    border-radius: 6px;;
-}
-
-button {
-    height: 24px;
-    width: 30px;
-    border-radius: 8px;
-    margin-top: 5px;
-    color: gold;
-    background-color: rgb(46, 42, 42);
-    text-align: center;
-}
-
 
 .Logo {
     font-weight:800;
@@ -75,10 +28,106 @@ button {
     white-space: nowrap;
 }
 
-h2 {
-    margin-bottom:4px;
+
+nav {
+    margin: 8x; /* título */
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    margin-right: 30%; /* cabeçalho */
+    display: flex;
+    list-style: none;
+    align-items: center;
+    white-space: nowrap;
+    gap: 65px;
+}
+
+ul li a {
+    
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul li a:hover{
+text-decoration: underline;
+color: rgb(245, 225, 113);
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.search-input {
+    width: 100px;
+    height: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 203, 19);
+    font-size: 14px;
+    text-align: center;
+}
+
+.search-button {
+    height: 26px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: gold;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.search-button:hover {
+    background-color: rgb(243, 226, 113);
+}
+.banner-container {
+    display: flex;
     margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.titulo {
+    color: rgba(255, 217, 0, 0.932);
+}
+
+h2 {
+    margin-bottom: 4px;
+    margin-left: 29px;
     font-size: 20px;
+}
+
+.filmes {
+    height: auto;
+    margin-left: 15px;
+    padding: 10px;
+    display: flex;
+    gap: 12px;
+}
+
+img {
+    width: 150px;
+    border-radius: 8px;
 }
 
 h4 {
@@ -87,21 +136,5 @@ h4 {
     color:rgb(243, 226, 113);
 }
 
-.titulo {
-    color: rgba(255, 217, 0, 0.932);
-}
-
-.filmes {
-    height: auto;
-    margin-left: 6px;
-    padding: 10px;
-    display: flex;
-    gap: 10px;
-}
-
-img {
-    width: 150px;
-    border-radius: 8px;
-}
 
 
