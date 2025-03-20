@@ -1,4 +1,4 @@
-# Trabalho Prático - Semana 03
+# Semana 03 - Trabalho prático
 
 Dessa vez, vamos escolher uma proposta de projeto para trabalhar. Na [lista de propostas de projetos](propostas-projetos.md), escolha um dentre as alternativas.
 
@@ -8,10 +8,11 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+**Matricula:** 1597908                                      
+**Nome:** Esther Ventura de Souza                                                                  
+**Proposta de projeto escolhida:** Catálogo de Filmes                                             
+**Breve descrição sobre seu projeto:**
+ O Cine Magia é uma plataforma onde as pessoas podem se entreter assistindo filmes de diversos genêros e criar listas, por exemplo, dos seus filmes favoritos e os quais elas desejam assistir no futuro.  
 
 
 ## Print do esboço criada
